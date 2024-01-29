@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Priority?>
+
+<BorderPane fx:id="root" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="fi.tuni.application.MapController">
+    <center>
+        <VBox alignment="CENTER">
+            <HBox>
+                <StackPane fx:id="mapPane">
+                    <ImageView fx:id="mapImage" fitHeight="500.0"
+                        pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@images/finlandMap.png" />
+                        </image>
+                    </ImageView>
+                </StackPane>
+                <GridPane fx:id="cityGrid" VBox.vgrow="ALWAYS">
+                </GridPane>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

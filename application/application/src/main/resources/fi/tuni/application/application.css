@@ -1,0 +1,12 @@
+.button{
+    -fx-background-color:  #222752;
+    -fx-border-color: "white";
+}
+
+.button:hover{
+    -fx-background-color: "gray";
+}
+
+.exitButton:hover{
+    -fx-background-color: #e66060;
+}

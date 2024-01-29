@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0"
+    xmlns="http://javafx.com/javafx/15"
+    xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="fi.tuni.application.HourlyViewController">
+    <children>
+        <ListView fx:id="hourlyView" layoutX="14.0" layoutY="14.0" orientation="HORIZONTAL"
+            AnchorPane.leftAnchor="0"
+            AnchorPane.rightAnchor="0" />
+    </children>
+</AnchorPane>
